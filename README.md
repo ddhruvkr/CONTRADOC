@@ -41,7 +41,7 @@ Remember to setup your openai api key
 ```
 cd extract
 mkdir contradiction_json
-extract.py # check --help for information/options
+python extract.py # check --help for information/options
 ```
 The raw files will be stored in `contradiction_json`, then aggregate the files, and run `contradoc_create.py` to do insertion, replacement, and initial filter for generated false document candidates. 
 *Note that all generated documents need further verification by humans to guarantee the validity.*
